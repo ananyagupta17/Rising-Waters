@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" class="high">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flood Prediction | High Risk</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/results.css') }}" />
+</head>
+<body>
+  <header>
+    <h1>Flood Prediction</h1>
+    <nav>
+      <a href="{{ url_for('home') }}">Home</a>
+      <a href="{{ url_for('intro') }}">Intro</a>
+      <a href="{{ url_for('predict') }}">Predict</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>High Risk of Flooding</h2>
+    <div class="status-badge">HIGH</div>
+    <p>Our system has detected a <strong>high</strong> chance of flood based on the inputs provided. Please take necessary precautions immediately and follow local government alerts or evacuation instructions.</p>
+    <p><strong>Recommendation:</strong> Secure your property, avoid low-lying areas, and stay updated on emergency notifications.</p>
+  </main>
+</body>
+</html>

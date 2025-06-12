@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flood Prediction | Introduction</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}"/>
+</head>
+<body>
+  <header>
+    <h1>Flood Prediction</h1>
+    <nav>
+        <a href="{{ url_for('home') }}">Home</a>
+        <a href="{{ url_for('intro') }}">Intro</a>
+        <a href="{{ url_for('predict') }}">Predict</a>
+    </nav>
+  </header>
+
+  <main>
+    <img src="assets/flood.jpg" alt="Flood scene" class="banner"/>
+    <h2>Introduction</h2>
+    <p>Flood forecasting is the use of forecasted precipitation and streamflow data in rainfall-runoff and streamflow routing models to forecast flow rates and water levels for periods ranging from a few hours to days ahead, depending on the 
+        size of the watershed or river basin. Flood forecasting can also make use of forecasts of precipitation in an attempt to extend the lead time available. Flood forecasting is an important component of flood warning, where the distinction between the two is that the outcome of flood forecasting is a set of forecast 
+        time-profiles of channel flows or river level across various location, while "flood warning" is the task of making use of these forecasts to tell decisions on warnings of floods. Real-time flood forecasting at regional area can be done in seconds by using the technology of artificial neural network. Effective real-time flood forecasting models could be useful for early warning and disaster prevention.</p>
+  </main>
+</body>
+</html>

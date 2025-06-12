@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" class="moderate">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flood Prediction | Moderate Risk</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/results.css') }}" />
+</head>
+<body>
+  <header>
+    <h1>Flood Prediction</h1>
+    <nav>
+        <a href="{{ url_for('home') }}">Home</a>
+        <a href="{{ url_for('intro') }}">Intro</a>
+        <a href="{{ url_for('predict') }}">Predict</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Moderate Risk of Flooding</h2>
+    <div class="status-badge">MODERATE</div>
+    <p>The prediction model suggests a <strong>moderate</strong> chance of flooding. Keep an eye on weather updates and consider light preparedness just in case conditions worsen.</p>
+    <p><strong>Recommendation:</strong> Monitor rainfall and avoid unnecessary travel through flood-prone areas.</p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" class="low">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flood Prediction | Low Risk</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/results.css') }}" />
+</head>
+<body>
+  <header>
+    <h1>Flood Prediction</h1>
+    <nav>
+      <a href="{{ url_for('home') }}">Home</a>
+      <a href="{{ url_for('intro') }}">Intro</a>
+      <a href="{{ url_for('predict') }}">Predict</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Low Risk of Flooding</h2>
+    <div class="status-badge">LOW</div>
+    <p>The flood risk is currently <strong>low</strong> based on your input. No immediate precautions are needed, but remain aware during the rainy season.</p>
+    <p><strong>Recommendation:</strong> Enjoy peace of mind, but revisit this tool if rainfall or cloud conditions change significantly.</p>
+  </main>
+</body>
+</html>
