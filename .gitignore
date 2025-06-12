@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Virtual Environments
+env/
+.venv/
+venv/
+
+# Data and models
+models/
+*.pkl
+data/processed/
+
+# System files
+.DS_Store
