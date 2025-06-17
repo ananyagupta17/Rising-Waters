@@ -12,7 +12,6 @@ env/
 venv/
 
 # Data and models
-models/
 *.pkl
 data/processed/
 
