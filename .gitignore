@@ -11,9 +11,5 @@ env/
 .venv/
 venv/
 
-# Data and models
-*.pkl
-data/processed/
-
 # System files
 .DS_Store
