@@ -19,13 +19,19 @@
   <main>
     <h2>Predict Flood Risk</h2>
     <form action="/predict" method="POST">
+      <input type="number" name="temp" placeholder="Temperature (°C)" required />
+      <input type="number" name="humidity" placeholder="Humidity (%)" required />
       <input type="number" name="cloud_cover" placeholder="Cloud Cover (%)" required />
       <input type="number" name="annual_rainfall" placeholder="Annual Rainfall (mm)" required />
       <input type="number" name="rain_janfeb" placeholder="Jan-Feb Rainfall (mm)" required />
-      <input type="number" name="rain_mar_may" placeholder="March-May Rainfall (mm)" required />
-      <input type="number" name="rain_jun_sep" placeholder="June-September Rainfall (mm)" required />
+      <input type="number" name="rain_mar_may" placeholder="Mar-May Rainfall (mm)" required />
+      <input type="number" name="rain_jun_sep" placeholder="Jun-Sep Rainfall (mm)" required />
+      <input type="number" name="rain_octdec" placeholder="Oct-Dec Rainfall (mm)" required />
+      <input type="number" name="avg_june" placeholder="Average June Rainfall (mm)" required />
+      <input type="number" name="sub" placeholder="Sub-Division Index" required />
       <button type="submit">Predict Flood Risk</button>
     </form>
+    
   </main>
 </body>
 </html>
