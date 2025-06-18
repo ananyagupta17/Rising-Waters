@@ -5,40 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Flood Prediction | Home</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
-  <style>
-    .hero {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 2rem;
-      padding: 2rem 1rem;
-    }
-
-    .hero-text {
-      flex: 1;
-      min-width: 300px;
-    }
-
-    .hero img {
-      max-width: 450px;
-      width: 100%;
-      height: auto;
-      border-radius: 1rem;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-    }
-
-    @media (max-width: 768px) {
-      .hero {
-        flex-direction: column-reverse;
-        text-align: center;
-      }
-
-      .hero img {
-        max-width: 90%;
-      }
-    }
-  </style>
 </head>
 <body>
   <header>
@@ -50,15 +16,15 @@
     </nav>
   </header>
 
-  <main>
-    <section class="hero">
-      <div class="hero-text">
+  
+  <section class="full-hero">
+    <div class="hero-overlay">
+      <div class="hero-content">
         <h2>Welcome to Flood Forecast</h2>
-        <p>Your one-stop solution for real-time flood prediction using advanced machine learning models. Stay ahead of disasters with our accurate and intuitive forecasting system.</p>
-        <p><a href="{{ url_for('predict') }}" class="button">Get Started</a></p>
+        <p>Your one-stop solution for real-time flood prediction using advanced machine learning models.</p>
+        <a href="{{ url_for('predict') }}" class="button">Get Started</a>
       </div>
-      <img src="{{ url_for('static', filename='assets/flood.png') }}" alt="Flood prediction illustration" />
-    </section>
-  </main>
+    </div>
+  </section>
 </body>
 </html>
