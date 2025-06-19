@@ -12,7 +12,7 @@ Rising-Waters is a machine learning-driven project that forecasts potential floo
 
 ## Project Structure
 
-Rising-Waters/
+Rising-Waters/  
 ├── app/              # Flask application and UI logic  
 ├── data/             # Raw and processed datasets  
 ├── models/           # Saved machine learning models  
