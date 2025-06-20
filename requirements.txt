@@ -1,5 +1,13 @@
-pandas
-matplotlib
-seaborn
-numpy
-openpyxl
+Flask==3.1.1
+Jinja2==3.1.6
+joblib==1.5.1
+matplotlib==3.10.3
+matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1733416936468/work
+numpy==2.3.0
+openpyxl==3.1.5
+pandas==2.3.0
+pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1733327343728/work
+pillow==11.2.1
+scikit-learn==1.6.1
+seaborn==0.13.2
+xgboost==3.0.2
