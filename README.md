@@ -91,3 +91,5 @@ weighted avg 1.00 1.00 1.00 23
 | Prediction Form                            | Risk Output Page                                 |
 | ------------------------------------------ | ------------------------------------------------ |
 | ![Predict](app/static/assets/predict.jpeg) | ![Prediction](app/static/assets/prediction.jpeg) |
+
+s
